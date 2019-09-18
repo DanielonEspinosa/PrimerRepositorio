@@ -8,7 +8,6 @@ public class VectorEstructurado {
     private static String nvNombre;
     private static char nvEdCivil;
     
-    
     public static void main(String [] args){
         Cliente clientes[] = new Cliente [10];
         while (true){
@@ -129,6 +128,13 @@ public class VectorEstructurado {
             V[ind].getNombre()+" Edad: "+V[ind].getEdad()+" Ed. Civil: "+V[ind].getEdCivil());
             ind = V[ind].getSiguiente();
         }
+    }
+    public static boolean Eliminar (Cliente V[]){
+        if (inicio==-1)
+            return false;
+        
+        
+        return true;
     }
 }
 
